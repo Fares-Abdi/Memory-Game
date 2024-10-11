@@ -46,10 +46,6 @@ td{
     transition: 0.2s;
     margin-top: 25px;
 }
-#start:hover{
-    letter-spacing: 6px;
-    background: #c7a925;
-}
 
 
 
@@ -178,12 +174,12 @@ img{
     
     .frontZ {
       color: white;
-      background: #060d12;
+      background: #0ffe02;
     }
     
     .backZ {
       color: white;
-      background: #060d12;
+      background: #22f901;
       transform: rotateY(180deg);
     }
 
