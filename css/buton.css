@@ -32,12 +32,12 @@
       
       .front {
         color: white;
-        background: #09ff00;
+        background: #2200ff;
       }
       
       .back {
         color: white;
-        background: #00ff40;
+        background: #0400ff;
         transform: rotateY(180deg);
       }
 

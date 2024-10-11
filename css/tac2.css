@@ -174,12 +174,12 @@ img{
     
     .frontZ {
       color: white;
-      background: #0ffe02;
+      background: #0217fe;
     }
     
     .backZ {
       color: white;
-      background: #22f901;
+      background: #0109f9;
       transform: rotateY(180deg);
     }
 
