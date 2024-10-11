@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tac2.css">
+    <link rel="stylesheet" href="css/buton.css">
+    <title>Memory Game</title>
+</head>
+<body>
+
+
+    <audio id="music" preload="auto" >
+        <source src="audio/Frank Sinatra - gangsters Paradise.mp3" type="audio/mpeg"> 
+      </audio>
+
+      <audio id="hoverSound" preload="auto" >
+        <source src="audio/Rollover_or_button_sound.wav" type="audio/mpeg"> 
+      </audio>
+
+
+      <audio id="clickSound" preload="auto" >
+        <source src="audio/Deepwoken Talent Card Flip Sound Effect.mp3" type="audio/mpeg"> 
+      </audio>
+      
+
+
+    <div class="linko">
+    <h1>A Memory Game</h1>
+    <div class="flip-containerZ" id="flipContainerZ">
+        <div class="flipperZ">
+            <div class="frontZ">
+                <p>start</p>
+            </div>
+            <div class="backZ">
+                <p>let's go</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+<div class="big">
+<div class="retry"> 
+<div id="display"></div>
+<button id="retry" style="display: none;"><img src="img/pngwing.com.png" alt=""></button>
+</div>
+   <table>
+       <tbody id="image-table"></tbody>
+   </table>
+
+</div>
+
+
+
+
+<div class="flip-container" id="flipContainer">
+    <div class="flipper">
+        <div class="front">
+            <p>Mute</p>
+        </div>
+        <div class="back">
+            <p>Unmute</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/buton.js"></script>
+<script src="js/toc2.js"></script>
+
+
+
+
+</body>
+</html>
